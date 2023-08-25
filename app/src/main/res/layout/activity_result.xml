@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvResult"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:text="Тут пусто"
+        android:textColor="@color/orange"
+        android:gravity="center"
+        android:layout_marginBottom="50dp">
+
+    </TextView>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:id="@+id/btnBack"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Пройти еще раз"
+        android:backgroundTint="#8BACFF"
+        >
+
+    </Button>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

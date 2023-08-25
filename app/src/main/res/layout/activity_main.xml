@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    android:background="@color/white"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/vector"
+
+        >
+    <ImageView
+        android:layout_width="420dp"
+        android:layout_height="343dp"
+        android:src="@drawable/background">
+
+    </ImageView>
+    </LinearLayout>
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:text="HOW MUCH DO YOU KNOW ABOUT YOUR FAVOURITE BOOKS?"
+        android:maxLines="3"
+        android:scrollHorizontally="false"
+        android:textColor="#8BACFF"
+        android:textSize="35dp"
+        android:fontFamily="@font/oswald_semibold"
+        android:gravity="center">
+
+    </TextView>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:text="PLAY"
+        android:textSize="20dp"
+        android:background="@drawable/button"
+        android:layout_marginTop="20dp"
+        android:onClick="play" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
